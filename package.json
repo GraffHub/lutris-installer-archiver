@@ -1,0 +1,12 @@
+{
+  "name": "lutris-installer-archiver",
+  "version": "0.1.0",
+  "description": "Backs up lutris installers to a git repo",
+  "main": "backup.js",
+  "scripts": {
+    "start": "node backup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Michel",
+  "license": "GPL-3.0-or-later"
+}
