@@ -15,3 +15,7 @@ Replace `<directory>` with the path to the output directory where you'd like the
 ```
 npm start -- <directory>
 ```
+
+## TODO
+
+Currently this is an inefficient implementation -- it completely removes the archive directory, then recreates everything from scratch. Incremental updates could be added later (although the main bottleneck at this point is the API rate limit, so this isn't super important).
