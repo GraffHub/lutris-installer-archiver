@@ -19,3 +19,7 @@ npm start -- <directory>
 ## TODO
 
 Currently this is an inefficient implementation -- it completely removes the archive directory, then recreates everything from scratch. Incremental updates could be added later (although the main bottleneck at this point is the API rate limit, so this isn't super important).
+
+## License
+
+This project is licensed under the GNU General Public License version 3, or (at your option) any later version.
